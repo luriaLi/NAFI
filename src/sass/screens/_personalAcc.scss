@@ -1,0 +1,518 @@
+.wrapper_leader {
+    margin: 0 auto;
+    background-color: #FAFAFA;
+}
+.acc-container {
+    display: flex;
+}
+.personalAccount__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.PA__nav {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+.PA__search {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.PA__input {
+    outline: none;
+    border: none;
+    color: #262626;
+    font-size: 1rem;
+    margin-right: 7rem;
+    font-family: 'Montserrat';
+    background-color: inherit;
+}
+.PA__pagesLinks {
+    display: flex;
+    column-gap: 2.8rem;
+    align-items: center;
+}
+.PA__navlink {
+    color: #262626;
+}
+.PA__workspaceLink {
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    height: 2.5rem;
+    max-width: 15rem;
+    margin-right: 2.5rem;
+}
+.PA__navlink-btn {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    color: white;
+    padding-right: 0.4rem;
+    white-space: nowrap;
+}
+.personal_features {
+    display: flex;
+    column-gap: 2.5rem;
+}
+.PA__btn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.PA__hello {
+    color: black;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    margin-top: 4rem;
+}
+.PA__btnCards {
+    display: flex;
+    column-gap: 7px;
+}
+.PA__card {
+    margin-top: 1rem;
+    max-width: 10.5rem;
+    max-height: 13.5rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    flex-direction: column;
+}
+.PA__cardBtn {
+    background-color: inherit;
+    border-color: white;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.PA__cardTitle {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    margin-left: 0.6rem;
+}
+.PA__cardSubtitle {
+    font-size: 0.6rem;
+    font-weight: 400;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-left: 0.6rem;
+    padding-bottom: 1rem;
+}
+.PA__collection {
+    margin-top: 1.8rem;
+}
+.PA__favsContainer {
+    display: flex;
+    max-width: 26rem;
+
+}
+.PA__favorites {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 9rem;
+}
+.PA__editBtn {
+    border: none;
+    border-radius: 5rem;
+    background-color: #D9D9D9;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+    cursor: pointer;
+    margin-left: 4.5rem;
+}
+.PA__addBtn {
+    border: none;
+    border-radius: 5rem;
+    background-color: #000000;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.chat {
+    display: flex;
+    max-width: 26rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 1rem;
+    align-items: center;
+    background-color: white;
+    margin-top: 0.8rem;
+    padding-left: 0.6rem;
+}
+.chatName {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-right: 12.5px;
+    padding: 7px;
+    white-space: nowrap;
+}
+.person_name {
+    font-size: 0.875rem;
+}
+.lastSeen {
+    color: #000000;
+    opacity: 0.4;
+    font-size: 0.75rem;
+}
+.seenBtn {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    margin-left: 12.5rem;
+}
+.PA__left-info {
+    display: flex;
+}
+.react-calendar {
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    top: 8rem;
+    left: 70rem;
+    width: 23.875rem;
+    height: 23.9rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1.5rem;
+}
+.react-calendar__navigation {
+    align-self: center;
+}
+.react-calendar__viewContainer {
+    margin-top: 1.5rem;
+    width: 18.3125rem;
+    height: 13.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.8rem;
+}
+.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button, .react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
+    display: none;
+}
+
+.react-calendar__navigation__arrow.react-calendar__navigation__prev-button {
+    background-color: inherit;
+    border: none;
+}
+
+
+.react-calendar__month-view {
+    justify-self: center;
+}
+.react-calendar__month-view__days__day, .react-calendar__month-view__days__day--neighboringMonth {
+    background-color: white;
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.react-calendar__month-view__days__day--weekend {
+    color: #464646;
+}
+.react-calendar__month-view__weekdays {
+    color: #B5B5B5;
+    font-size: 0.75rem;
+    text-decoration: none;
+    margin-left: 0.7rem;
+    display: flex;
+    column-gap: 0.15rem;
+}
+.PA__team {
+    max-width: 417px;
+    height: 127px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 1rem;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PA__teamcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PA__teamcontainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5rem;
+}
+.PA__team-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 65px;
+    
+}
+.PA__teamcontainer1{
+    margin-left: 0rem;
+}
+.avatarG {
+    margin-left: 5.5rem;
+}
+.PA__teamName {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    white-space: nowrap;
+}
+.numOfPpl {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #B5B5B5;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+.teamChat {
+    background-color: #C6E975;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    width: 59px;
+    height: 26px;
+}
+.hashtag {
+    background-color: #4D61F4;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 200;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    width: 118px;
+    height: 26px;
+
+}
+.btns {
+    display: flex;
+    column-gap: 10px;
+    margin-left: -2rem;
+}
+.teamChat2 {
+    background-color: #FFB6FC;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    width: 59px;
+    height: 26px;
+}
+.hashtag2 {
+    background-color: #C6E975;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 200;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    width: 91px;
+    height: 26px;
+}
+.PA__yandex-team {
+    background-color: #262626;
+    max-width: 48rem;
+    max-height: 8.68rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.team__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Yandex-team {
+    display: flex;
+    flex-direction: column;
+    margin-right: 486px;
+    margin-left: 17px;
+}
+.PA__teamNameFooter {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.workers {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #B5B5B5;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+.footBtn {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 70px;
+    margin-right: 220px;
+}
+.teamChat3 {
+    background-color: #696969;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    width: 59px;
+    height: 26px;
+    color: #FFFFFF;
+}
+.hashtag4 {
+    background-color: #696969;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+    width: 91px;
+    height: 26px;
+}
+.addInfo {
+    display: flex;
+    color: #FFFFFF;
+}
+.PA__team-addinfo, .statistics {
+    display: flex;
+    align-items: center;
+}
+.numberOfWorkers, .numberofFiles {
+    font-size: 14px;
+    white-space: nowrap;
+}
+.break {
+    height: 15px;
+    margin: 0 1rem;
+}
+.calendar__container {
+    display: flex;
+}
+.css-gqp4xl-MuiPickersLayout-root .MuiPickersLayout-toolbar {
+    display: none;
+}
+.css-gqp4xl-MuiPickersLayout-root .MuiPickersLayout-actionBar {
+    display: none;
+}
+.css-16b5y55-MuiPickersLayout-contentWrapper {
+    width: 382px !important;
+    height: 382px !important;
+    background-color: #FFFFFF !important;
+}
+.css-gqp4xl-MuiPickersLayout-root {
+    max-height: 440px;
+    margin-top: -210px;
+    border-radius: 2rem;
+}
+.css-kg9q0s-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button {
+    margin-right: auto !important;
+    margin-left: -300px !important;
+}
+.css-cyfsxc-MuiPickersCalendarHeader-labelContainer {
+    margin-left: 90px !important;
+}
+.css-1wy8uaa-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+    background-color: #C6E975 !important;
+    will-change: background-color !important;
+}
+.css-dplwbx-MuiPickersCalendarHeader-label {
+    background-color: #262626 !important;
+    border-radius: 2rem !important;
+    width: 120px !important;
+    height: 26px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 300;
+    
+}
+.css-23p0if-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+    background-color: #C6E975 !important;
+}
+.calendarBtn {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 140px;
+}
+.addEventBtn {
+    display: flex;
+    width: 278px;
+    height: 40px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    background: #262626;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+.calendar__settingsBtn {
+    background-color: #262626;
+    height: 40px;
+    width: 40px;
+    border-radius: 34px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

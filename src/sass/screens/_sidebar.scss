@@ -1,0 +1,151 @@
+.sidebar__container {
+    padding: 1.25rem;
+    margin: 1.13rem;
+    background-color: #262626;
+    border-radius: 2.125rem;
+    max-width: 18rem;
+    min-height: 100%;
+}
+.logo {
+    margin-bottom: 2.75rem;
+}
+.sidebar__acc {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: hsl(0, 0%, 100%);
+    padding-left: 0.6rem;
+    white-space: nowrap;
+}
+.sidebar__acc.active {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #969696;
+    padding-left: 0.6rem;
+    white-space: nowrap;
+}
+.sidebar__acc-teaching {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: hsl(0, 0%, 100%);
+    padding-left: 2.1rem;
+}
+.sidebar__acc-teaching.active {
+    color: #474747;
+}
+.sidebar_navigation {
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar__list, .sidebar__list1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: baseline;
+}
+.sidebar__list {
+    position: absolute;
+    margin-top: 300px;
+}
+.sidebar__list1 > li {
+    max-height: 1.7rem;
+}
+.sidebar__acc {
+    margin-left: 1.7rem;
+}
+.sidebar__acc.active {
+    color: #474747;
+}
+.li__account {
+    background-image: url(../../../public/imgs/activeAccount.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.li__conferences {
+    background-image: url(../../../public/imgs/conf.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.5rem;
+}
+.li__calendar {
+    background-image: url(../../../public/imgs/calendar.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.li__chat {
+    background-image: url(../../../public/imgs/chat.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.li__teaching {
+    background-image: url(../../../public/imgs/studying.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 1rem 0rem -1.5rem;
+}
+.li__statistics {
+    background-image: url(../../../public/imgs/statistics.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.li__documents {
+    background-image: url(../../../public/imgs/documents.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.li__settings {
+    background-image: url(../../../public/imgs/settings.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.li__logout {
+    background-image: url(../../../public/imgs/logout.svg);
+    background-repeat: no-repeat;
+    list-style: none;
+    margin: 0.6rem 0rem 0rem -1.7rem;
+}
+.sidebar__btn {
+    background-color: #262626;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.li__documents {
+    margin-left: -2rem;
+}
+.sidebar__acc-doc {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: hsl(0, 0%, 100%);
+    padding-left: 2.6rem;
+    white-space: nowrap;
+}
+.sidebar__acc-conf {
+    margin-left: 1.5rem;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: hsl(0, 0%, 100%);
+    padding-left: 0.6rem;
+    white-space: nowrap;
+}
