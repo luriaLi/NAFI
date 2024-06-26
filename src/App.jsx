@@ -9,10 +9,10 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/NAFI/' element = {<MainPage />} />
-        <Route path='/NAFI/auth' element = {<Auth />} />
-        <Route path='/NAFI/auth/signUp' element = {<SignUp />}/>
-        <Route path='/NAFI/auth/account' element = {<Leader />} />
+        <Route path='/' element = {<MainPage />} />
+        <Route path='/auth' element = {<Auth />} />
+        <Route path='/auth/signUp' element = {<SignUp />}/>
+        <Route path='/auth/account' element = {<Leader />} />
       </Routes>
     </div>
   )
